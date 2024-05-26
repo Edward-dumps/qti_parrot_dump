@@ -1,0 +1,14 @@
+# qssi-userdebug 13 TKQ1.231110.001 eng.lnxbui.20231207.084121 test-keys
+- manufacturer: qualcomm
+- platform: parrot
+- codename: parrot
+- flavor: qssi-userdebug
+- release: 13
+- id: TKQ1.231110.001
+- incremental: eng.lnxbui.20231207.084121
+- tags: test-keys
+- fingerprint: qti/parrot/parrot:12/SKQ1.231127.001/lnxbuild12140550:userdebug/test-keys
+- is_ab: true
+- brand: qti
+- branch: qssi-userdebug-13-TKQ1.231110.001-eng.lnxbui.20231207.084121-test-keys
+- repo: qti_parrot_dump

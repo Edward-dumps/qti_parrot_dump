@@ -1,0 +1,21 @@
+user=radio seinfo=platform name=.dataservices domain=vendor_dataservice_app type=radio_data_file
+user=_app seinfo=platform name=com.qualcomm.telephony domain=radio_service type=app_data_file levelFrom=all
+user=_app seinfo=platform name=org.codeaurora.ims isPrivApp=true domain=vendor_qtelephony type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.qualcomm.qti.telephonyservice domain=vendor_qtelephony type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.qualcomm.location.XT isPrivApp=true domain=vendor_location_app type=app_data_file
+user=_app seinfo=platform name=com.qualcomm.location.XT.setup isPrivApp=true domain=vendor_location_app type=app_data_file
+user=_app seinfo=platform name=com.qualcomm.location isPrivApp=true domain=vendor_location_app type=app_data_file
+user=_app seinfo=platform name=com.qualcomm.wfd.service:wfd_service domain=vendor_wfd_app type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.qualcomm.wfd.client domain=vendor_wfd_app type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.qti.qcc domain=vendor_qcc_app type=app_data_file levelFrom=all
+user=system seinfo=platform name=com.qualcomm.qti.qcclmtp isPrivApp=true domain=vendor_qcc_lmtp_app type=system_app_data_file
+user=_app seinfo=platform name=com.qualcomm.qti.qccnetstat domain=vendor_qcc_netstat_app type=app_data_file levelFrom=all
+user=system seinfo=platform name=com.qualcomm.qti.qdmautils isPrivApp=true domain=vendor_qcc_utils_app type=system_app_data_file
+user=_app seinfo=platform name=com.caf.fmradio domain=vendor_fm_app type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.qualcomm.qti.seccamservice:remote domain=vendor_seccam_app type=app_data_file
+user=_app seinfo=platform name=com.qti.phone domain=vendor_qtelephony type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.qualcomm.qti.sva domain=vendor_voiceui_app type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.qti.qualcomm.mstatssystemservice domain=vendor_mstatservice_app type=app_data_file levelFrom=all
+user=system seinfo=platform name=vendor.qti.qesdk.sysservice isPrivApp=true domain=vendor_qesdk_app type=system_app_data_file
+user=_app seinfo=platform name=com.qualcomm.qti.workloadclassifier domain=vendor_wlc_app type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.qualcomm.qti.xrcb domain=vendor_xrcb_app type=app_data_file levelFrom=all
