@@ -1,0 +1,7 @@
+#Its a debug service and NEVER going to land in user /product build so using root :root
+service vendor.debugutils-1-0 /vendor/bin/hw/vendor.qti.hardware.debugutils@1.0-service
+    interface vendor.qti.hardware.debugutils@1.0::IDebugUtils default
+    disabled
+    class hal
+    user root
+    group root

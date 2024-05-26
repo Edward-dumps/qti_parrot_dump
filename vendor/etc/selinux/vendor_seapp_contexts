@@ -1,0 +1,31 @@
+user=_app seinfo=tango name=com.google.tango:app domain=untrusted_app type=app_data_file levelFrom=user
+user=_app seinfo=platform name=com.qualcomm.timeservice domain=vendor_timeservice_app type=app_data_file levelFrom=all
+user=_app seinfo=platform name=.qtidataservices domain=vendor_qtidataservices_app type=app_data_file levelFrom=all
+user=radio seinfo=platform name=.imshelperservice domain=vendor_imshelper_app type=radio_data_file
+user=_app seinfo=platform name=com.qualcomm.qti.poweroffalarm domain=vendor_poweroffalarm_app type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.qualcomm.qti.qms.service.trustzoneaccess domain=vendor_tzas_app type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.qti.ltebc domain=vendor_embmssl_app type=app_data_file levelFrom=all
+user=_app seinfo=ssgapp domain=vendor_ssg_app name=com.qualcomm.qti.qms.service.connectionsecurity type=app_data_file levelFrom=all
+user=system seinfo=platform name=com.qualcomm.qti.perfdump domain=vendor_perfdump_app type=system_app_data_file
+user=_app seinfo=platform name=.pasr domain=vendor_powerservice_app type=app_data_file levelFrom=all
+user=system seinfo=platform name=.pdtapps domain=vendor_pdt_app type=system_app_data_file
+user=_app seinfo=platform name=com.qualcomm.qti.usta domain=vendor_usta_app type=vendor_usta_app_data_file levelFrom=all
+user=_app seinfo=platform name=com.qualcomm.qti.sensors.qsensortest domain=vendor_qsta_app type=app_data_file levelFrom=all
+user=system seinfo=platform name=com.qualcomm.qti.ustaservice domain=vendor_ustaservice_app type=system_app_data_file
+user=_app seinfo=platform name=com.qualcomm.qti.libsochelpertest domain=vendor_libsochelpertest_app type=app_data_file levelFrom=all
+user=system seinfo=platform name=com.qti.diagservices domain=qtidiagservices_app type=system_app_data_file
+user=_app seinfo=platform name=com.qti.vtloopback domain=vtloopback_app type=app_data_file levelFrom=all
+user=_app isPrivApp=true name=org.codeaurora.snapcam domain=vendor_snapcam_app type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.qualcomm.qct.dlt levelFrom=all domain=vendor_location_app_test type=app_data_file
+user=_app seinfo=platform name=com.qualcomm.qti.qlogcat levelFrom=all domain=vendor_location_app_test type=app_data_file
+user=system seinfo=platform name=.loopbackservice domain=vendor_qtiloopback_app type=system_app_data_file
+user=system seinfo=platform name=qcom.cta.cta_ui domain=vendor_cta_app type=system_app_data_file
+user=system seinfo=platform name=com.qualcomm.qti.logkit.lite domain=vendor_logkit_app type=system_app_data_file
+user=_app seinfo=platform domain=vendor_pdt_app name=com.quicinc.framework.debugapp levelFrom=all type=app_data_file
+user=_app seinfo=platform name=com.qualcomm.qti.dualstaapp domain=vendor_dualsta_app type=app_data_file levelFrom=all
+user=_app seinfo=platform name=com.qualcomm.qti.cam2test domain=vendor_sys_seccam2_app type=app_data_file levelFrom=all
+user=system seinfo=platform name=com.qualcomm.wrd.ue.kpitool.base domain=vendor_cta_app type=system_app_data_file
+user=_app seinfo=platform name=com.qualcomm.aontest domain=aoncameraservice_app type=app_data_file levelFrom=all
+user=_app seinfo=sysmonapp domain=vendor_sysmonapp_app_test name=com.qualcomm.sysmonappInternal type=app_data_file levelFrom=all
+user=_app seinfo=platform domain=vendor_sysmonapp_app_test name=com.qualcomm.sysmonappInternal type=app_data_file levelFrom=all
+user=_app seinfo=platform domain=vendor_sysmonapp_app_test name=com.qualcomm.qti.sysmonappExternal type=app_data_file levelFrom=all
