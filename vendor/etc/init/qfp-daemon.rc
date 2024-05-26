@@ -1,0 +1,12 @@
+service qfp-daemon /vendor/bin/hw/qfp-daemon
+    class hal
+    user system
+    group system drmrpc input wakelock
+    capabilities BLOCK_SUSPEND WAKE_ALARM
+
+on post-fs-data
+    #Create directories for Fingerprint
+    mkdir /data/vendor/misc 01771 system system
+    mkdir /data/vendor/misc/qti_fp 0770 system system
+    mkdir /persist/qti_fp 0770 system system
+    mkdir /mnt/vendor/persist/qti_fp 0770 system system
