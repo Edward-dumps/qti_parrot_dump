@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<config><compat-change description="Requires to configure MAC randomization setting to None when configuring BSSID." enableAfterTargetSdk="31" id="215656264" name="FORCE_MUTUAL_EXCLUSIVE_BSSID_MAC_RAMDONIZATION_SETTING" /><compat-change description="Removes zero support on {@link android.net.wifi.SoftApConfiguration.Builder#setShutdownTimeoutMillis(long)}." enableAfterTargetSdk="31" id="213289672" name="REMOVE_ZERO_FOR_TIMEOUT_SETTING" /></config>
