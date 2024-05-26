@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/******************************************************************************
+ *
+ * Copyright (c) 2023 Qualcomm Technologies, Inc. and/or its subsidiaries.
+ * All Rights Reserved.
+ * Confidential - Qualcomm Technologies, Inc. and/or its affiliated companies.
+ * May Contain Trade Secrets.
+ *
+ ******************************************************************************/
+-->
+<permissions>
+    <privapp-permissions package="com.qualcomm.qtil.aptxui">
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED"/>
+    </privapp-permissions>
+</permissions>

@@ -1,0 +1,14 @@
+# qssi-userdebug 14 UKQ1.240321.001 eng.lnxbui.20240407.132706 test-keys
+- manufacturer: qualcomm
+- platform: parrot
+- codename: parrot
+- flavor: qssi-userdebug
+- release: 14
+- id: UKQ1.240321.001
+- incremental: eng.lnxbui.20240407.132706
+- tags: test-keys
+- fingerprint: qti/parrot/parrot:12/SKQ1.240314.001/lnxbuild04080748:userdebug/test-keys
+- is_ab: true
+- brand: qti
+- branch: qssi-userdebug-14-UKQ1.240321.001-eng.lnxbui.20240407.132706-test-keys
+- repo: qti_parrot_dump

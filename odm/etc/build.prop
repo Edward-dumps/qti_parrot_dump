@@ -1,0 +1,32 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.odm.brand=qti
+ro.product.odm.device=parrot
+ro.product.odm.manufacturer=QUALCOMM
+ro.product.odm.model=parrot for arm64
+ro.product.odm.name=parrot
+ro.odm.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
+ro.odm.product.cpu.abilist32=armeabi-v7a,armeabi
+ro.odm.product.cpu.abilist64=arm64-v8a
+ro.odm.build.date=Mon Apr  8 07:48:32 PDT 2024
+ro.odm.build.date.utc=1712587712
+ro.odm.build.fingerprint=qti/parrot/parrot:12/SKQ1.240314.001/lnxbuild04080748:userdebug/test-keys
+ro.odm.build.id=SKQ1.240314.001
+ro.odm.build.tags=test-keys
+ro.odm.build.type=userdebug
+ro.odm.build.version.incremental=eng.lnxbui.20240408.075211
+ro.odm.build.version.release=12
+ro.odm.build.version.release_or_codename=12
+ro.odm.build.version.sdk=32
+####################################
+# from variable ADDITIONAL_ODM_PROPERTIES
+####################################
+ro.vendor.qti.va_odm.support=1
+####################################
+# from variable PRODUCT_ODM_PROPERTIES
+####################################
+# Auto-added by post_process_props.py
+persist.sys.usb.config=none
+# end of file

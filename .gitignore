@@ -1,0 +1,5 @@
+bootRE/boot.elf
+product/priv-app/QrdGmsCore/QrdGmsCore.apk
+product/app/webview/webview.apk
+system_ext/apex/com.android.vndk.v30.apex
+recovery.img
