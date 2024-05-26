@@ -1,0 +1,7 @@
+# Qualcomm Virtualization Manager
+service vendor.qvirtmgr /product/bin/qvirtmgr
+    class late_start
+    user root
+    group root
+    disabled
+    oneshot
